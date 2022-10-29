@@ -4,7 +4,7 @@ class NavBarTop extends StatelessWidget {
   const NavBarTop({super.key});
   @override
   Widget build(BuildContext context) {
-    return Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+    return Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
       Image.network(
         "https://elrincondenetflix.com/wp-content/uploads/2020/04/nuevo-logo-netflix_original.jpg",
         width: 30.0,
@@ -13,11 +13,11 @@ class NavBarTop extends StatelessWidget {
           style: TextStyle(
             color: Colors.white,
           )),
-      const Text("Programas",
+      const Text("Peliculas",
           style: TextStyle(
             color: Colors.white,
           )),
-      const Text("Programas",
+      const Text("Mi Lista",
           style: TextStyle(
             color: Colors.white,
           )),

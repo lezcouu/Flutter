@@ -1,4 +1,4 @@
-import 'package:clone_netflix/components/main_poster.dart';
+import 'package:clone_netflix/components/poster.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
